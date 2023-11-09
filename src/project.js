@@ -1775,7 +1775,7 @@ window.__require = function e(t, n, o) {
     cc._RF.push(t, "4754e8KuPZJCqklCNyKpG29", "LanguageSetJs");
     t.exports = {
       language_1: {
-        game_name: "\u300c\u5c04\u82f9\u679c\u300d",
+        game_name: "ant",
         game_name1: "\u5c04\u82f9\u679c",
         game_info: "\u628a\u63e1\u65f6\u673a\uff0c\u5c04\u4e2d\u82f9\u679c\u3002",
         txtStart: "\u5f00\u59cb",
@@ -2165,7 +2165,7 @@ window.__require = function e(t, n, o) {
         },
         initLanguage: function () {
           var e = null;
-          return cc.sys.language == cc.sys.LANGUAGE_CHINESE ? (this.curType = 1, e = c.language_1) : (cc.log("\u82f1\u6587"), this.curType = 2, e = c.language_2), e
+          return false ? (this.curType = 1, e = c.language_1) : (cc.log("\u82f1\u6587"), this.curType = 2, e = c.language_2), e
         },
         getLinkGameReturn: function (e, t, n, o) {
           if (console.log("err0", e), console.log("err1", t), console.log("err2", n), console.log("err3", o), 0 == e) {
